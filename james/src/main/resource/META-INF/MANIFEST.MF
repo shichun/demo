@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Name: james
+Bundle-Activator: com.linkwithweb.osgi.HelloActivator
+Bundle-SymbolicName: james
+Bundle-Version: 1.0.0
+Import-Package: org.osgi.framework
+Export-Package: MathService,
+ MathServiceClient,
+ com.james.james,
+ com.linkwithweb.osgi,
+ com.linkwithweb.osgi.service,
+ com.linkwithweb.osgi.service.client

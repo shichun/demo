@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/com.springsource.net.sf.cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.slf4j.api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.slf4j.log4j-1.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.slf4j.org.apache.commons.logging-1.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j.osgi-1.2.15-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.aop-2.5.6.SEC01.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.beans-2.5.6.SEC01.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context-2.5.6.SEC01.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.core-2.5.6.SEC01.jar"/>
+	<classpathentry kind="lib" path="lib/OSGiDmHelloWorldConsumer-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/OSGiDmHelloWorldProvider-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/spring-osgi-core-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-osgi-extender-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-osgi-io-1.2.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

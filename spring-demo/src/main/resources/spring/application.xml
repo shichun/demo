@@ -10,4 +10,8 @@
 	<bean id="hpService" class="com.ysc.test.spring.lookup.HpServiceImpl">  
     	<lookup-method name="getHpDao" bean="hpDao" />  
 	</bean> 
+	 <bean id="person" class="springdemo.Person" scope="prototype" />
+    <bean id="company" class="springdemo.Company">
+        <lookup-method name="createPerson" bean="person" />
+    </bean>
 </beans>       

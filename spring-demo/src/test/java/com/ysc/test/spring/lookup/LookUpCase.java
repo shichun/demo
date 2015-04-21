@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
+import springdemo.Company;
+
 public class LookUpCase {
 
 	@Test
@@ -26,6 +28,14 @@ public class LookUpCase {
 		} else {
 			System.out.println(false);
 		}
+		
+		Company company = context.getBean("company", Company.class);
+        company.meet();
+        company.meet();
+        company.meet();
+        company.meet();
+        company.meet();
+        company.meet();
 	}
 	
 	/*@Test
