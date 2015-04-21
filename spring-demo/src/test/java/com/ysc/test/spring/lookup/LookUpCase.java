@@ -2,13 +2,14 @@ package com.ysc.test.spring.lookup;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class LookUpCase {
 
 	@Test
 	public void lookUpCase() {
-		ApplicationContext context = new ClassPathXmlApplicationContext("spring/application-*.xml");
+//		ApplicationContext context = new ClassPathXmlApplicationContext("spring1/application.xml");
+		ApplicationContext context = new FileSystemXmlApplicationContext("classpath*:spring/application.xml");
 		//classpath*:
 		// print: false
 		if (context.getBean("hpDao") == context.getBean("hpDao")) {
