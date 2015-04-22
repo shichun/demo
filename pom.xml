@@ -6,8 +6,8 @@
   <packaging>pom</packaging>
   <name>com.jame</name>
   <modules>
-  <!-- 	<module>james</module> -->
-  <module>spring-demo</module>
+  <!-- 	<module>james</module>-->
+  <module>spring-demo</module> 
   </modules>
   <build>
     <sourceDirectory>src</sourceDirectory>
